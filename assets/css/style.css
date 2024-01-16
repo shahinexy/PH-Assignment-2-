@@ -332,3 +332,42 @@ nav .menubar {
   font-size: 32px;
   font-weight: 800;
 }
+
+
+
+/* =============================
+   Footer area style
+================================ */
+footer{
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer_container{
+  max-width: 1170px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 100px 100px;
+}
+.footer_container p{
+  padding: 0 70px;
+}
+.footer_brand{
+  display: flex;
+  gap: 16px;
+  text-align: center;
+  justify-content: center;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+hr{
+  height: 2px;
+  border: none;
+  background: rgba(19, 19, 24, 0.10);
+}
+.mt50{
+  margin-top: 50px;
+}
