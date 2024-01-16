@@ -398,6 +398,7 @@ nav .menubar {
 .card_top {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .card_top p {
