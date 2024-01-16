@@ -40,8 +40,8 @@ main {
   max-width: 1170px;
   margin: 0px auto;
 }
-section{
-    margin: 100px 10px;
+section {
+  margin: 100px 10px;
 }
 
 /* root  */
@@ -60,11 +60,10 @@ section{
   padding: 15px 35px;
   border: none;
 }
-.secton_title_area{
+.secton_title_area {
   text-align: center;
   padding: 0 264px;
 }
-
 
 /* ===================
    Header area style
@@ -105,7 +104,7 @@ nav ul li a {
 nav ul li a.active {
   color: var(--primary-color);
 }
-nav .menubar{
+nav .menubar {
   display: none;
 }
 /* hero area  */
@@ -122,11 +121,16 @@ nav .menubar{
   width: 100%;
   border-radius: 16px;
   text-align: center;
-  padding: 100px 180px;
+  padding: 100px 0;
 }
 .hero_area p {
   color: #fff;
   margin: 25px 0px 65px 0px;
+  padding: 0 180px;
+}
+.input_container {
+  display: flex;
+  justify-content: center;
 }
 .hero_input_area {
   background: rgba(255, 255, 255, 0.3);
@@ -136,7 +140,7 @@ nav .menubar{
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
   justify-items: center;
-  width: 100%;
+  width: 80%;
 }
 .hero_input_area input {
   color: rgba(19, 19, 24, 0.5);
@@ -168,45 +172,80 @@ nav .menubar{
 /* =============================
    Our populer tours area style
 ================================ */
-.populer_tours{
-    display: flex;
-    gap: 50px;
-    align-items: center;
+.populer_tours {
+  display: flex;
+  gap: 50px;
+  align-items: center;
 }
-.tour_text_area, .tour_img_area{
-    width: 50%;
+.tour_text_area,
+.tour_img_area {
+  width: 50%;
 }
-.tour_text_area li{
-    color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px; 
+.tour_text_area li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
 }
-.tour_img_area img{
-    width: 100%;
+.tour_img_area img {
+  width: 100%;
 }
 
 /* =============================
    Our populer tours area style
 ================================ */
-.destination_img_caontainer{
+.destination_img_caontainer {
   margin: 45px 0;
   display: grid;
   gap: 24px;
 }
-.destination_img_caontainer img{
+.destination_img_caontainer img {
   width: 100%;
 }
-.grid_col_1{
+.grid_col_1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
-.grid_col_2{
+.grid_col_2 {
   display: flex;
   gap: 24px;
 }
-.grid_col_3{
+.grid_col_3 {
   display: flex;
   gap: 24px;
+}
+
+/* =============================
+   Our populer tours area style
+================================ */
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 24px;
+  margin-top: 50px;
+}
+.card {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  padding: 30px;
+}
+.card img {
+  margin-bottom: 30px;
+}
+.single_card {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.card-2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+.single_card .card {
+  width: 50%;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
 }
