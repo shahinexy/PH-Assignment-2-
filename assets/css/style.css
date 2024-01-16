@@ -481,10 +481,10 @@ nav .menubar {
   height: 100%;
 }
 .discount {
-  padding: 30px;
+  width: 46%;
+  padding: 30px 0;
   background-color: var(--primary-color);
   border-radius: 16px;
-  display: inline-block;
   text-align: center;
   position: absolute;
   transform: rotate(-19.628deg);
@@ -502,7 +502,6 @@ nav .menubar {
   font-size: 32px;
   font-weight: 800;
 }
-
 /* =============================
    Footer area style
 ================================ */
