@@ -38,6 +38,9 @@
   .tour_img_area, .book_now_card, .newsletter_box, .newaletter_img {
     width: 100%;
   }
+  .deals_discount_container{
+    padding-top: 200px;
+  }
   .footer_container{
     padding: 50px 50px;
   }
@@ -130,6 +133,10 @@
     justify-content: center;
     margin: 0;
   }
+  /* won section  */
+  .book_tour{
+    padding: 80px 20px;
+  }
   /* deals and discount  */
   .deals_discount_container {
     padding: 187px 16px 16px 16px;
@@ -167,8 +174,11 @@
     padding: 10px 0;
   }
   /* footer  */
+  .footer_brand img{
+    width: 28.724px;
+  }
   .footer_container p {
-    padding: 0 40px;
+    padding: 0;
   }
   .footer_container {
     padding: 30px 44px;
