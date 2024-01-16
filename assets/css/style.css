@@ -338,8 +338,10 @@ nav .menubar {
   background-size: cover;
   background-position: center;
   padding: 56px;
+  border-radius: 16px;
   display: flex;
   justify-content: end;
+  margin-bottom: 24px;
 }
 .book_now_card {
   width: 50%;
@@ -366,6 +368,12 @@ nav .menubar {
   font-weight: 800;
   margin-bottom: 24px;
 }
+.card_2{
+  background-image: url("../images/Rectangle13.png");
+  justify-content: start;
+}
+
+
 /* =============================
    Video area style
 ================================ */
