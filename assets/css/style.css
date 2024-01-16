@@ -493,3 +493,22 @@ hr {
 .mt50 {
   margin-top: 50px;
 }
+
+
+.book_tour{
+  background-image: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  ), url("../images/bg_benar.png");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 80px;
+  border-radius: 16px;
+}
+.book_tour{
+  text-align: center;
+}
+.book_tour h2, .book_tour p{
+  color: #fff;
+}
