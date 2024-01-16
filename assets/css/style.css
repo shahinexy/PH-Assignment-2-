@@ -192,7 +192,7 @@ nav .menubar {
 }
 
 /* =============================
-   Our populer tours area style
+   Choose your destinaiton area style
 ================================ */
 .destination_img_caontainer {
   margin: 45px 0;
@@ -217,7 +217,7 @@ nav .menubar {
 }
 
 /* =============================
-   Our populer tours area style
+   Why choose us area style
 ================================ */
 .card_container {
   display: grid;
@@ -248,4 +248,27 @@ nav .menubar {
   width: 50%;
   border: 1px solid rgba(233, 68, 68, 0.2);
   background: rgba(233, 68, 68, 0.05);
+}
+
+/* =============================
+   Video area style
+================================ */
+.videro_area_container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  align-items: center;
+}
+.videro_area_text li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.videro_area_text button{
+  margin-top: 30px;
+  padding: 14px 40px;
+}
+.videro_area_img img{
+  width: 100%;
 }

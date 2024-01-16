@@ -15,10 +15,17 @@
     .hero_input_area{
         grid-template-columns: repeat(2, 1fr);
     }
-
+    .hero_area p {
+        padding: 0 20px;
+    }
     /* choose your detination  */
     .secton_title_area{
         padding: 0;
+    }
+    /* video area  */
+    .videro_area_container{
+        grid-template-columns: 1fr;
+        text-align: center;
     }
 }
 
@@ -51,7 +58,8 @@
         margin: 24px 0;
       }
     .hero_input_area, 
-    .grid_col_1
+    .grid_col_1,
+    .card_container
     {
         grid-template-columns: 1fr;
     }
@@ -60,7 +68,7 @@
         flex-direction: column;
         gap: 16px;
     }
-    .tour_text_area, .tour_img_area{
+    .tour_text_area, .tour_img_area, .single_card .card{
         width: 100%;
     }
     /* choose your detination  */
