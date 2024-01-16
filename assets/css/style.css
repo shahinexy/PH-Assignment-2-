@@ -15,17 +15,17 @@ body {
 }
 h1 {
   color: #fff;
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 800;
 }
 h2 {
   color: #131318;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 h3 {
   color: #131318;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 800;
 }
 p {
@@ -36,9 +36,12 @@ p {
   margin: 24px 0;
 }
 
-section {
+main {
   max-width: 1170px;
-  margin: 100px auto;
+  margin: 0px auto;
+}
+section{
+    margin: 100px 10px;
 }
 
 /* root  */
@@ -57,13 +60,19 @@ section {
   padding: 15px 35px;
   border: none;
 }
+.secton_title_area{
+  text-align: center;
+  padding: 0 264px;
+}
+
 
 /* ===================
    Header area style
 =================== */
 header {
-  max-width: 1170px;
+  max-width: 1160px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 #header {
   margin: 50px auto;
@@ -96,7 +105,9 @@ nav ul li a {
 nav ul li a.active {
   color: var(--primary-color);
 }
-
+nav .menubar{
+  display: none;
+}
 /* hero area  */
 .hero_area {
   background: linear-gradient(
@@ -106,7 +117,9 @@ nav ul li a.active {
     ),
     url("../images/hero-benar.png");
   background-repeat: no-repeat;
-  background-size: cover center;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
   border-radius: 16px;
   text-align: center;
   padding: 100px 180px;
@@ -119,9 +132,10 @@ nav ul li a.active {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 8px;
   padding: 15px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 25px;
-  justify-content: center;
+  justify-items: center;
   width: 100%;
 }
 .hero_input_area input {
@@ -143,6 +157,7 @@ nav ul li a.active {
   font-weight: 400;
 }
 .hero_area button {
+  width: 10.9rem;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -169,4 +184,29 @@ nav ul li a.active {
 }
 .tour_img_area img{
     width: 100%;
+}
+
+/* =============================
+   Our populer tours area style
+================================ */
+.destination_img_caontainer{
+  margin: 45px 0;
+  display: grid;
+  gap: 24px;
+}
+.destination_img_caontainer img{
+  width: 100%;
+}
+.grid_col_1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+.grid_col_2{
+  display: flex;
+  gap: 24px;
+}
+.grid_col_3{
+  display: flex;
+  gap: 24px;
 }

@@ -1,0 +1,70 @@
+/* ======================================
+   Responsive style for tablet 992px
+========================================= */
+@media screen and (max-width: 992px)  {
+
+    .hero_area{
+        padding: 30px 20px;        
+    }
+    nav ul{
+        display: none !important;
+    }
+    nav .menubar{
+        display: block;
+      }
+    .hero_input_area{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* choose your detination  */
+    .secton_title_area{
+        padding: 0;
+    }
+}
+
+
+/* ======================================
+   Responsive style for tablet 600px
+========================================= */
+@media screen and (max-width: 600px)  {
+    /* default  */
+    h1 {
+        color: #fff;
+        font-size: 1.4rem;
+        font-weight: 800;
+      }
+      h2 {
+        color: #131318;
+        font-size: 1.3rem;
+        font-weight: 800;
+      }
+      h3 {
+        color: #131318;
+        font-size: 1.3rem;
+        font-weight: 800;
+      }
+      p {
+        color: rgba(19, 19, 24, 0.7);
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 24px 0;
+      }
+    .hero_input_area, 
+    .grid_col_1
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .populer_tours, .grid_col_2, .grid_col_3{
+        flex-direction: column;
+        gap: 16px;
+    }
+    .tour_text_area, .tour_img_area{
+        width: 100%;
+    }
+    /* choose your detination  */
+    .destination_img_caontainer{
+        gap: 16px;
+    }
+}
