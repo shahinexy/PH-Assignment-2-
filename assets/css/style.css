@@ -253,7 +253,7 @@ nav .menubar {
 /* =============================
    Video area style
 ================================ */
-.videro_area_container{
+.videro_area_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
@@ -265,10 +265,70 @@ nav .menubar {
   font-weight: 700;
   line-height: 26px;
 }
-.videro_area_text button{
+.videro_area_text button {
   margin-top: 30px;
   padding: 14px 40px;
 }
-.videro_area_img img{
+.videro_area_img img {
   width: 100%;
+}
+
+/* =============================
+   Newsletter section area style
+================================ */
+.newsletter_container {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.newsletter_box {
+  width: 40%;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px;
+}
+.newsletter_box p{
+  margin: 16px 0;
+}
+.newsletter_box input {
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 16px 20px;
+  border: none;
+  margin: 16px 0;
+}
+.newsletter_box button{
+  width: 100%;
+  margin-top: 16px;
+}
+.newaletter_img {
+  width: 60%;
+  position: relative;
+}
+.newaletter_img img{
+  width: 100%;
+  height: 100%;
+}
+.discount {
+  padding: 30px;
+  background-color: var(--primary-color);
+  border-radius: 16px;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  transform: rotate(-19.628deg);
+  right:10px;
+  bottom: 12%;
+}
+.discount p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+.discount h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
 }
