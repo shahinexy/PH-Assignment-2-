@@ -1,153 +1,183 @@
 /* ======================================
-   Responsive style for tablet 992px
+   Responsive style for laptop 992px
 ========================================= */
-@media screen and (max-width: 992px)  {
-
-    .hero_area{
-        padding: 30px 20px;        
-    }
-    nav ul{
-        display: none !important;
-    }
-    nav .menubar{
-        display: block;
-      }
-    .hero_input_area{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .hero_area p {
-        padding: 0 20px;
-    }
-    /* choose your detination  */
-    .secton_title_area{
-        padding: 0;
-    }
-    /* video area  */
-    .videro_area_container{
-        grid-template-columns: 1fr;
-    }
+@media screen and (max-width: 992px) {
+  .hero_area {
+    padding: 30px 20px;
+  }
+  nav ul {
+    display: none !important;
+  }
+  nav .menubar {
+    display: block;
+  }
+  .hero_input_area {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero_area p {
+    padding: 0 20px;
+  }
+  /* choose your detination  */
+  .secton_title_area {
+    padding: 0;
+  }
+  /* video area  */
+  .videro_area_container {
+    grid-template-columns: 1fr;
+  }
 }
 
+/* ======================================
+   Responsive style for tablet 800px
+========================================= */
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  .populer_tours, .newsletter_container {
+    flex-direction: column;
+  }
+  .tour_text_area,
+  .tour_img_area, .book_now_card, .newsletter_box, .newaletter_img {
+    width: 100%;
+  }
+  .footer_container{
+    padding: 50px 50px;
+  }
+}
 
 /* ======================================
    Responsive style for tablet 600px
 ========================================= */
-@media screen and (max-width: 600px)  {
-    /* default  */
-    h1 {
-        color: #fff;
-        font-size: 1.4rem;
-        font-weight: 800;
-      }
-      h2 {
-        color: #131318;
-        font-size: 1.3rem;
-        font-weight: 800;
-      }
-      h3 {
-        color: #131318;
-        font-size: 1.3rem;
-        font-weight: 800;
-      }
-      p {
-        color: rgba(19, 19, 24, 0.7);
-        font-size: 0.9rem;
-        font-weight: 400;
-        line-height: 26px;
-        margin: 16px 0;
-      }
-      section{
-        margin: 24px 10px;
-      }
-      .primary_btn{
-        margin: 24px 0;
-      }
-    .hero_input_area, 
-    .grid_col_1,
-    .card_container
-    {
-        grid-template-columns: 1fr;
-    }
+@media screen and (max-width: 600px) {
+  /* default  */
+  h1 {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+  h2 {
+    color: #131318;
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+  h3 {
+    color: #131318;
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+  p {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0;
+  }
+  section {
+    margin: 24px 10px;
+  }
+  .primary_btn {
+    margin: 24px 0;
+  }
+  .hero_input_area,
+  .grid_col_1,
+  .card_container {
+    grid-template-columns: 1fr;
+  }
 
-    .populer_tours, .grid_col_2, .grid_col_3, .newsletter_container{
-        flex-direction: column;
-        gap: 16px;
-    }
-    .tour_text_area, .tour_img_area, .single_card .card, .newsletter_box, .newaletter_img, .book_now_card{
-        width: 100%;
-    }
-    /* header area  */
-    #header{
-      margin: 18px 0;
-    }
-    .nav_brand h1 {
-        color: #131318;
-        font-size: 1.3rem;
-      }
-      .nav_brand{
-        gap: 10px;
-      }
-      .nav_brand img{
-        width: 28.724px;
-      }
-      /* hero area  */
-      .hero_area{
-        padding: 15px 30px;        
-    }
-    .hero_input_area, .hero_input_area input, .hero_input_area select, .hero_input_area button {
-        width: 100%;
-    }
-    .hero_area p{
-        margin-bottom: 30px;
-    }
-    /* deals and discount  */
-    .deals_discount_container{
-      padding: 187px 16px 16px 16px;
-    }
-    .book_now_card{
-      padding: 24px;
-    }
-    .card_top{
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    .card_top p{
-      margin-bottom: 18px;
-    }
-    .book_now_card button{
-      margin: 0;
-    }
-    /* choose your detination  */
-    .destination_img_caontainer{
-        gap: 16px;
-    }
-    .img_box img{
-      width: 100%;
-      height: 11rem;
-      object-fit: fill;
-    }
-    /* newsletter  */
-    .discount h2 {
-      font-size: 1.3rem;
-    }
-    .discount p {
-      font-size: 1rem;
-    }
-    .discount{
-      padding: 20px;
-    }
-    /* footer  */
-    .footer_container p {
-      padding: 0 40px;
-    }
-    .footer_container{
-      padding: 30px 44px;
-    }
-    .icons{
-      font-size: 24px;
-      margin-bottom: 24px;
-    }
-    .mt50{
-      margin-top: 24px;
-    }
+  .populer_tours,
+  .grid_col_2,
+  .grid_col_3,
+  .newsletter_container {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .tour_text_area,
+  .tour_img_area,
+  .single_card .card,
+  .newsletter_box,
+  .newaletter_img,
+  .book_now_card {
+    width: 100%;
+  }
+  /* header area  */
+  #header {
+    margin: 18px 0;
+  }
+  .nav_brand h1 {
+    color: #131318;
+    font-size: 1.3rem;
+  }
+  .nav_brand {
+    gap: 10px;
+  }
+  .nav_brand img {
+    width: 28.724px;
+  }
+  /* hero area  */
+  .hero_area {
+    padding: 15px 30px;
+  }
+  .hero_input_area,
+  .hero_input_area input,
+  .hero_input_area select,
+  .hero_input_area button {
+    width: 100%;
+  }
+  .hero_area p {
+    margin-bottom: 30px;
+  }
+  .hero_area button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  /* deals and discount  */
+  .deals_discount_container {
+    padding: 187px 16px 16px 16px;
+  }
+  .book_now_card {
+    padding: 24px;
+  }
+  .card_top {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .card_top p {
+    margin-bottom: 18px;
+  }
+  .book_now_card button {
+    margin: 0;
+  }
+  /* choose your detination  */
+  .destination_img_caontainer {
+    gap: 16px;
+  }
+  .img_box img {
+    width: 100%;
+    height: 11rem;
+    object-fit: fill;
+  }
+  /* newsletter  */
+  .discount h2 {
+    font-size: 1.3rem;
+  }
+  .discount p {
+    font-size: 1rem;
+  }
+  .discount {
+    padding: 20px;
+  }
+  /* footer  */
+  .footer_container p {
+    padding: 0 40px;
+  }
+  .footer_container {
+    padding: 30px 44px;
+  }
+  .icons {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .mt50 {
+    margin-top: 24px;
+  }
 }

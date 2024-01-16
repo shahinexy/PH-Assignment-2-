@@ -438,8 +438,9 @@ nav .menubar {
   margin-top: 30px;
   padding: 14px 40px;
 }
-.videro_area_img img {
+.videro_area_img iframe{
   width: 100%;
+  border-radius: 16px;
 }
 
 /* =============================
