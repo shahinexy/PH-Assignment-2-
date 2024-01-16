@@ -417,7 +417,10 @@ nav .menubar {
   background-image: url("../images/Rectangle13.png");
   justify-content: start;
 }
-
+.deals_discount_btn{
+  text-align: center;
+  margin-top: 48px;
+}
 
 /* =============================
    Video area style
