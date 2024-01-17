@@ -31,17 +31,24 @@
    Responsive style for tablet 800px
 ========================================= */
 @media screen and (max-width: 800px) and (min-width: 600px) {
-  .populer_tours, .newsletter_container {
+  .populer_tours,
+  .newsletter_container {
     flex-direction: column;
   }
   .tour_text_area,
-  .tour_img_area, .book_now_card, .newsletter_box, .newaletter_img {
+  .tour_img_area,
+  .book_now_card,
+  .newsletter_box,
+  .newaletter_img {
     width: 100%;
   }
-  .deals_discount_container{
+  .img_card_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .deals_discount_container {
     padding-top: 200px;
   }
-  .footer_container{
+  .footer_container {
     padding: 50px 50px;
   }
 }
@@ -81,7 +88,8 @@
   }
   .hero_input_area,
   .grid_col_1,
-  .card_container {
+  .card_container,
+  .img_card_container {
     grid-template-columns: 1fr;
   }
 
@@ -134,7 +142,7 @@
     margin: 0;
   }
   /* won section  */
-  .book_tour{
+  .book_tour {
     padding: 80px 20px;
   }
   /* deals and discount  */
@@ -174,7 +182,7 @@
     padding: 10px 0;
   }
   /* footer  */
-  .footer_brand img{
+  .footer_brand img {
     width: 28.724px;
   }
   .footer_container p {
